@@ -1,0 +1,56 @@
+
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+/* opdracht 2.1*/
+.one {display: flex;
+    position: relative;
+    flex-direction: column}
+
+/* opdracht 2.2*/
+.two {display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+/* opdracht 2.3*/
+.three li {display: inline-flex;
+    flex-direction: row;
+justify-content: space-between;
+margin: 10px;
+}
+div.three {display: flex;
+    flex-direction: row;
+justify-content: space-between}
+
+/* opdracht 2.4*/
+form label {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+username {
+    display: flex;
+    text-align: center;
+}
+form {display: inline-block;
+width: 300px;
+height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* opdracht 2.5*/
+.five {display: flex;
+    justify-content: space-around;
+    padding: 1em
+}
+.article {display: flex;
+    flex-wrap: wrap;
+    padding: 1em}
+.article {flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px}
+
+
+
+
